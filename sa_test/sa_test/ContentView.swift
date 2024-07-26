@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     @StateObject private var authViewModel = AuthenticationViewModel()
     @StateObject private var inspectionViewModel = InspectionViewModel()
